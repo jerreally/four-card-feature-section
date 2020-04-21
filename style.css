@@ -29,9 +29,9 @@ header p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(7, 1fr);
   padding: 15px;
-  grid-column-gap: 25px;
-  grid-row-gap: 30px;
-  max-width: 1120px;
+  column-gap: 25px;
+  row-gap: 30px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -48,7 +48,6 @@ header p {
   grid-area: 3 / 1 / 6 / 2;
   padding: 20px;
 }
-
 
 .center-top-box {
   border-top: solid hsl(0, 78%, 62%);
