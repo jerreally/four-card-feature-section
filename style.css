@@ -5,8 +5,7 @@
 
 body {
   background-color: hsl(0, 0%, 98%);
-  min-width: 100vh; 
-  font-family: 'Poppins', sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 header {
   text-align: center;
@@ -30,9 +29,9 @@ header p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(7, 1fr);
   padding: 15px;
-  grid-column-gap: 15px;
+  grid-column-gap: 25px;
   grid-row-gap: 30px;
-  max-width: 960px;
+  max-width: 1120px;
   margin: 0 auto;
 }
 
@@ -45,7 +44,7 @@ header p {
   border-top: solid hsl(180, 62%, 55%);
   border-radius: 5px;
   background: #ffffff;
-  box-shadow: 2px 3px 3px #d8e2ee;
+  box-shadow: 5px 5px 5px #d8e2ee;
   grid-area: 3 / 1 / 6 / 2;
   padding: 20px;
 }
@@ -55,7 +54,7 @@ header p {
   border-top: solid hsl(0, 78%, 62%);
   border-radius: 5px;
   background: #ffffff;
-  box-shadow: 2px 3px 3px #d8e2ee;
+  box-shadow: 5px 5px 5px #d8e2ee;
   grid-area: 1 / 2 / 4 / 3;
   padding: 20px;
   
@@ -65,7 +64,7 @@ header p {
   border-top: solid hsl(34, 97%, 64%);
   border-radius: 5px;
   background: #ffffff;
-  box-shadow: 2px 3px 3px #d8e2ee;
+  box-shadow: 5px 5px 5px #d8e2ee;
   grid-area: 4 / 2 / 7 / 3;
   padding: 20px;
 }
@@ -74,12 +73,22 @@ header p {
   border-top: solid hsl(212, 86%, 64%);
   border-radius: 5px;
   background: #ffffff;
-  box-shadow: 2px 3px 3px #d8e2ee;
+  box-shadow: 5px 5px 5px #d8e2ee;
   grid-area: 3 / 3 / 6 / 4;
   padding: 20px;
 }
 
+footer {
+  text-align: center;
+}
 
-
+@media (max-width:600px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+}   
+    
 
 
